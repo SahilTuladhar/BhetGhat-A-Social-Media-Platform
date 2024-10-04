@@ -1,0 +1,198 @@
+.commentPost{
+  width: 100%;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+margin: 30px 0;
+border: 1.5px solid #000000;
+background-color: white;
+
+}
+
+.commentPostWrapper{
+  padding: 20px;
+  display: flex;
+  flex: 100%;
+  margin-top: -100px;
+  align-items: center;
+  height: 700px;
+
+}
+
+.postLeft{
+  flex: 75%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.commentPostImg{
+  margin-top: 104px;
+  width: 100%;
+  height: 850px;
+  max-height: 640px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-left: -21px;
+}
+
+/*.clsVertical{
+  border-left: 1px solid #d6e1f6;
+  height:520px;
+  float: left;
+
+}*/
+
+.postRight{
+ flex: 45%;
+ margin-top: -60px;
+ flex-direction: column;
+ position: relative;
+}
+
+.postRightTop{
+  height: 150px;
+  width:100%;
+  margin-top: -50px;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.postRightBottom{
+  height: 420px;
+  top: 200px;
+  margin-top: -185px;
+  padding: 10px;
+  position: relative;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+ width: 7px;
+}
+
+::-webkit-scrollbar-track{
+background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: white;
+}
+
+.commentPostTop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -8px;
+}
+
+.commentPostTopLeft{
+  display: flex;
+  align-items: center;
+}
+
+.commentPostProfileImg{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.commentPostUsername{
+  font-size: 13px;
+  font-weight: 510;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.commentPostDate{
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+
+.commentPostHR{
+  margin-bottom: 10px;
+  margin-left: -5px;
+}
+
+
+.commentPostRightBottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: -15px;
+
+}
+
+.commentPostRightBottomLeft{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: -5px;
+}
+
+.commentPostRightBottomRight{
+  display: flex;
+  align-items: center;
+}
+
+
+.commentPostLikeCounter{
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.commentLikeIcon{
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.commentPostCommentText{
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.commentCaption{
+  display: flex;
+  align-items: center;
+  margin-left: -15px;
+  
+}
+
+.commentCaptionText{
+  font-size: 10.5px;
+  margin-left: -5px;
+  opacity: 0.9;
+  margin-top: 2px;
+}
+
+.commentCommentInput{
+  border: none;
+  height:auto;
+  width: 80%;
+  max-width: 238px;
+  border-radius:10px;
+  background-color: white;
+  padding: 15px;
+  margin-left: -20px;
+}
+
+.commentCommentInput:focus{
+  outline: none;
+}
+
+.commentShareButton{
+  border-radius: 30px;
+  background-color: #d6e1f6;
+  border-width: 1.55px;
+  cursor: pointer;
+  transition: 0.5s opacity;
+}
+
+.commentShareButton:hover{
+  opacity: 0.8;
+}

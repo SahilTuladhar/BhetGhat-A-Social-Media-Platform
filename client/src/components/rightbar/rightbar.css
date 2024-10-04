@@ -1,0 +1,93 @@
+.rightbar{
+  flex : 25%;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+background-color: #f1f1f1;}
+
+::-webkit-scrollbar-thumb {
+  background-color:rgb(191, 190, 190)
+}
+
+.rightbarHr {
+  margin: 10px 0px;
+}
+
+.rightbarContainer{
+  padding: 20px;
+  width: 240px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border-radius: 30px;
+  background-color:#d6e1f6 ;
+  border: 1.5px solid #000000;
+}
+
+.containerName {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+
+}
+
+
+.rightbarTitle{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rightbarInfo{
+  margin-top: 10px;
+}
+
+.rightbarInfoItem{
+  margin-bottom: 10px;
+}
+
+.rightbarInfoKey{
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.rightbarInfoValue{
+  font-weight: 300;
+}
+
+.rightbarFollowButton{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #086cf8 ;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: box-shadow 0.5s , opacity 0.5s;
+}
+
+.rightbarFollowButton:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
+}
+
+
+.rightbarFollowButton:focus{
+  outline: none;
+  opacity: 0.8;
+  
+}

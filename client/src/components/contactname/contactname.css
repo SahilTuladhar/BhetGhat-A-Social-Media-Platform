@@ -1,0 +1,86 @@
+.contactbox{
+    width: auto;
+    height: auto;
+   background: #DEE7F8;
+   border: 2px solid #000000;
+    border-radius: 28px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .contactFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  
+  .contactFriend{
+    
+    display: flex;
+    padding: 4px;
+  }
+  
+  .contactProfileImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;    
+    padding: 5px;
+    margin-left: -125px;
+  }
+  
+  .online{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: 0;
+    margin-top: 8px;
+    left: 30px;
+  }
+  
+  .contactUsername{
+    align-self: center;
+    margin-right: 40px;
+    margin-top: 16px; 
+    vertical-align:baseline;
+    float: left;
+    width: 28px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000  
+  }
+  .contactMessage{
+    align-self: center;
+    margin-right: 60px;
+    margin-top: 16px; 
+    vertical-align:baseline;
+    float: right;
+    width: 28px;
+    height: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000  
+  }
+  
+  .contactDate{
+   width: 25px;
+   height: 17px;
+   font-weight: 300;
+   font-size: 12px;
+   color: #000000;
+   opacity: 0.8;
+   margin-left: 48px;
+   margin-top: 4px;
+   align-items: center;
+   vertical-align: top;
+   float: right;
+  }
+  
+  

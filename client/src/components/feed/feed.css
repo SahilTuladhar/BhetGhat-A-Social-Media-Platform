@@ -1,0 +1,16 @@
+.feed{
+  flex : 50%;
+}
+
+.feedWrapper{
+  padding: 20px;
+}
+
+.bookmarkFeed{
+  flex : 50%;
+  margin-right: 300px;
+}
+
+.bookmarkFeedWrapper{
+  padding: 20px;
+}

@@ -1,0 +1,68 @@
+.settingsoptContainer{
+  padding: 10px;
+  margin-top: 20px;
+  flex:75%;
+  flex-direction: column;
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+.settingsOptBox{
+margin-top: 15px;
+display: flex;
+}
+
+.settingsOptBoxText{
+ font-size: 15px;
+ padding: 10px;
+ width: 120px;
+ margin-top: 5px;
+}
+
+.settingsOptBoxEntry{
+
+  background-color: #d6e1f6;
+  border-radius: 30px;
+  width: 500px;
+  height: 35px;
+  border: 0.5px solid black;
+  margin-bottom: 30px;
+  transition: box-shadow 0.75s ;
+  cursor: pointer;
+  align-items: center;
+
+}
+
+.settingsOptBoxEntry:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
+}
+
+.changePp , .changeCp{
+  width: 100px ;
+  height:30px;
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: #d6e1f6;
+  cursor: pointer;
+  font-size: 15px;
+  object-position: center;
+  margin-top: 9px;
+  transition: box-shadow 0.75s , background-color 0.55s;
+}
+
+.loginButton:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
+}
+
+.loginButton:active{
+  background-color: #94b2ea;
+}
+
+.loginButton:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
+  }
+  
+.loginButton:active{
+    background-color: #94b2ea;
+}

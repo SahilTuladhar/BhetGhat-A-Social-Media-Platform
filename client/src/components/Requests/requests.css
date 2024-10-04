@@ -1,0 +1,78 @@
+.rightbarFriendList{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightbarFriend{
+  align-items: center;
+  display: flex;
+  margin-top: 2px;
+}
+
+.rightbarFriendImg{
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 5px;
+  margin-right: 35px;
+}
+
+.online{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: 0;
+  margin-top: 8px;
+  left: 30px;
+}
+
+.rightbarFriendName{
+margin-right: 20px;
+align-items: flex-start;
+margin-top: 12px;
+margin-left: -25px;
+justify-content: center;
+width: 130px;
+float: right;
+
+}
+
+.rightbarFriendName1{
+  margin-right: -10px;
+  justify-content: center;
+  width: 130px;
+  float: right;
+  margin-top: -30px;
+  margin-right: -5px;
+  
+  }
+
+
+.rightbarIcon{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  float: right;
+  padding: 3px;
+  align-items: end;
+}
+
+.rightbarIcon:hover{
+  opacity: 0.8;
+  transition: opacity 0.5s;
+}
+
+.rightbarFriendBox {
+  height: auto;
+  width: 240px;
+  background-color:white;
+  border-radius:20px;
+  border: 1.5px solid #000000;
+  margin-bottom: 12px;
+  position: relative;
+}
+

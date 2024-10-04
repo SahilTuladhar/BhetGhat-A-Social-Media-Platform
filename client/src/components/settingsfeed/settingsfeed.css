@@ -1,0 +1,46 @@
+.settingsBox{
+  padding: 10px;
+  margin-top: 20px;
+  flex:75%;
+  flex-direction: column;
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+.settingsOption{
+  background-color: #d6e1f6;
+  border-radius: 30px;
+  width: 600px;
+  height: 55px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  transition: box-shadow 0.75s , background-color 0.55s;
+  cursor: pointer;
+}
+
+.settingsIcon{
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.settingsText{
+ font-weight: 500;
+ position: fixed;
+ margin-top: 20.5px;
+ font-size: 19px;
+
+}
+
+.settingsOption:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
+}
+
+.settingsOption:active{
+ background-color: #bbcceb;
+}
+
+

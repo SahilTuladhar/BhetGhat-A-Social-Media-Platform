@@ -1,0 +1,130 @@
+.topbarContainer{
+  height: 50px;
+  width: 100%;
+  background-color: #d6e1f6;
+  display: flex;    /*flex keeps all the componenets in the same row*/
+  align-items: center;
+  position: sticky;   /*sticky and top 0 keeps the top bar in place even if we scroll*/
+  top: 0;
+  z-index: 999;
+
+}
+
+.topbarLeft{
+  flex :3;
+  display: flex;
+  align-items: center;
+}
+
+.logoImg{
+  width: 150px;
+  height: 150px;
+  margin-left: -10px;
+}
+
+.logoText{
+  font-size: 24px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #0c184efc;
+  cursor: pointer;
+  margin-left: -30px;
+}
+
+.topbarCenter{
+  flex :5;
+}
+
+.searchbar{
+  width: 100%;
+  height: 33px;
+  background-color:white ;
+  border-radius: 30px;
+  display: flex;
+  border: 1.5px solid #000000;
+}
+
+.form{
+  width: 100%;
+
+}
+
+.seacrchIcon{
+  font-style: 20px !important;
+  margin-left: 10px;
+  padding: 2px;
+}
+
+.searchInput{
+  border:none;
+  width: 70%;
+  background-color:white ;
+  margin-left: 5px;
+  margin-top: -10px;
+}
+
+.searchInput:hover{
+  opacity: 0.9;
+}
+
+.searchInput:focus{
+  outline: none; 
+}
+
+
+.topbarRight{
+  flex :4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.topbarLink{
+  margin-right: 10px;
+  font-style: 14px;
+  margin-top: 5px;
+  cursor:pointer;
+}
+
+.topbarLink:hover{
+  opacity: 0.8;
+}
+
+.topbarIcons{
+  display: flex;
+}
+
+.topbarIconItem{
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative; 
+}
+
+.topbarIconItem:hover{
+  opacity: 0.8;
+}
+
+.topbarIconBadge{
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position:absolute;
+  top: -5px;
+  right: -6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.topbarImg{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1.5px solid #000000;
+}
+

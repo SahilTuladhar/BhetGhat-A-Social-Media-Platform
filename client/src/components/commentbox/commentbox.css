@@ -1,0 +1,34 @@
+
+.commentFriendBox {
+  width: 300px;
+  height: auto;
+  background-color:#d6e1f6;
+  border-radius:20px;
+  border: 1.5px solid #000000;
+  margin-bottom: 12px;
+  margin-left: -10px;
+}
+
+.commentFriend{
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  padding: 8px;
+}
+
+.commentFriendName{
+  width: 130px;
+  font-size: 12px;
+  font-weight: bold;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.otherComment{
+  margin-left: -35px;
+  font-size: 13px;
+  padding: 5px;
+  width: 65%;
+}
+
+

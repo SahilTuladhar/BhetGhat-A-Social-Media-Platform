@@ -1,0 +1,113 @@
+.login{
+  width: 100vw;
+  height: 100vh;
+  background-color: #d6e1f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper{
+  width: 70%;
+  height: 70%;
+  display: flex;
+
+}
+.loginLogoImg{
+  margin-left: -330px;
+  }
+
+.loginLeft,.loginRight{
+  flex : 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginLogoText{
+  font-size: 50px;
+  font-weight: 800;
+  color: #0c184efc;
+  margin-bottom: 10px;
+  margin-left: -100px;
+}
+
+.loginDesc {
+  font-size: 20px;
+  opacity: 0.75;
+  margin-left: -100px;
+}
+
+.loginBox1{
+  margin-left: 100px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.emailInput1{
+  margin-top: 50px;
+  height: 40px;
+  width: 600px;
+  border-radius: 50px;
+  border: 2px solid black;
+  font-size: 18px ;
+  padding-left: 20px;
+}
+
+.userNameInput{
+  margin-top: -25px;
+  height: 40px;
+  width: 600px;
+  border-radius: 50px;
+  border: 2px solid black;
+  font-size: 18px ;
+  padding-left: 20px;
+}
+
+
+.pwInput1{
+  height: 40px;
+  width: 600px;
+  border-radius: 50px;
+  border: 2px solid black;
+  font-size: 18px ;
+  padding-left: 20px;
+  margin-top: -25px;
+}
+
+.emailInput1:focus,.pwInput:focus{
+  outline:none;
+}
+
+.loginButton{
+  width: 630px ;
+  height:56px;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-color: #ffdfdf;
+  cursor: pointer;
+  font-size: 25px;
+  object-position: center;
+  transition: box-shadow 0.75s , background-color 0.55s;
+}
+
+.loginButton:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
+}
+
+.loginButton:active{
+  background-color: #e8c8c8;
+
+}
+
+.loginText{
+  margin-left: 15px;
+}
+
+.signUpText{
+  cursor: pointer;
+}
